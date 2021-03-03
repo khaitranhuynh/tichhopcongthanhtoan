@@ -1,0 +1,26 @@
+doctype html
+html
+  head
+    title=title
+    link(rel='stylesheet', href='/stylesheets/jumbotron-narrow.css')
+    link(rel='stylesheet', href='/stylesheets/bootstrap.min.css')
+  body
+   
+    div.container
+      div.header.clearfix
+        ul.nav.nav-pills.pull-right
+          li(role="presentation").active
+            a(href='/order/create_payment_url') Tạo mới
+        h3.text-muted VNPAY DEMO - nguồn tại Sanbox.vnpayment.vn
+        h3.text-muted 1712828 - Huỳnh Thanh Khải Trân - Nhóm HCMUS-EC-20B01
+ 
+       <img  src="../images/thanhlong.jpg" width="50%" class="cangiua"/>
+
+      block conten_tit
+       
+      block content
+    
+ 
+      footer.footer
+        p &copy; VNPAY #{new Date().getFullYear()}
+   

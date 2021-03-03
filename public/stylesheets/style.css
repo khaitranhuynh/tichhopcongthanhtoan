@@ -1,0 +1,29 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+ 
+img.cangiua {display: block; margin-left: auto; margin-right: auto;}
+
+p.alignLeft {
+  text-align: left;
+}
+
+p.alignCenter {
+  text-align: center;
+}
+
+p.alignRight {
+  text-align: right;
+}
+
+ul.center_but{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
